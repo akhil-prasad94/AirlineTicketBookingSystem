@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="DAO" class="com.neu.ak.dao.DAO" />
+		<bean id= "login" class="com.neu.ak.dao.LoginDAO"></bean>
+		<bean id= "airLiners" class="com.neu.ak.dao.AirLinerDAO"></bean>
+		<bean id= "listRoutesDAO" class="com.neu.ak.dao.ListFlightsDAO"></bean>
+		<bean id= "routesDAO" class="com.neu.ak.dao.AirLinerFlightsDAO"></bean>
+		<bean id= "ticketDAO" class="com.neu.ak.dao.TicketDAO"></bean>
+		<bean id= "CustomerDAO" class="com.neu.ak.dao.CustomerDAO"></bean>
+		<bean id= "citiesDAO" class="com.neu.ak.dao.CitiesDAO"></bean>
+		
+		<bean id="AirLinersValidator" class="com.neu.ak.controller.AirLinersValidator"></bean>
+		<bean id="RouteValidator" class="com.neu.ak.controller.RouteValidator"></bean>
+		<bean id="CustomerValidator" class="com.neu.ak.controller.CustomerValidator"></bean>	
+		<bean id="paymentValidator" class="com.neu.ak.controller.PaymentValidator"></bean>	
+</beans>
