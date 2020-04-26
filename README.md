@@ -1,5 +1,5 @@
 # AirlineTicketBookingSystem
-CSYE6150
+INFO6150
 Course - Web Development Tools and Methods
 This project is a web application built using Spring MVC and Hibernate ORM frameworks. SQL is used as the database at the backend. JSP is used for the front-end. 
 Admin can create airliners and add flights. End users can book the flights based on the parameters like cities, dates, etc. The end user can download a PDF ticket and receives an email about the booking details. 
